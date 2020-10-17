@@ -1,0 +1,36 @@
+.searchbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+input {
+	width: 50%;
+	border: 0.1rem solid grey;
+	border-radius: 0.5rem;
+	padding: 1.5rem;
+	background: rgb(238, 236, 236);
+	margin: 2rem 0;
+}
+
+::placeholder {
+	font-style: italic;
+	text-align: right;
+	color: rgb(187, 187, 187);
+}
+
+input:focus {
+	outline: none;
+	box-shadow: 0 0 0px 2px slategray;
+}
+
+textarea:focus {
+	outline: none;
+	box-shadow: 0 0 0px 2px slategray;
+}
+
+select:focus {
+	outline: none;
+	box-shadow: 0 0 0px 2px slategray;
+}
