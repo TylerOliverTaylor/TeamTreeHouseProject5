@@ -206,7 +206,8 @@ body {
 
 .gallery {
   display: grid;
-  width: 100%;
+  width: 65%;
+  margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
